@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Contact List App/Page_My Contacts/button_Add a New Contact",
+      "brokenLocator": "//button[@id\u003d\u0027add-contact\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Logout\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240403_094254/Via Login/20240403_094254/Object Repository/Contact List App/Page_My Contacts/button_Add a New Contact_neighbor.png"
+    }
+  ]
+}

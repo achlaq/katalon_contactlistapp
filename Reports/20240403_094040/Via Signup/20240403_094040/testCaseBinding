@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Sign Up","testCaseId":"Test Cases/Sign Up","iterationVariableName":"","bindedValues":{"Email":"\u0027boger.bojinov@katalon.com\u0027","FirstName":"\u0027Boger\u0027","LastName":"\u0027Bojinov\u0027","Password":"\u0027qeJ0sjJnwEs\u003d\u0027"}}
+{"testCaseName":"Test Cases/Add New Contact List","testCaseId":"Test Cases/Add New Contact List","iterationVariableName":""}
+{"testCaseName":"Test Cases/Logout","testCaseId":"Test Cases/Logout","iterationVariableName":""}

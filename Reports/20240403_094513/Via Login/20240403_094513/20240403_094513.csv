@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Via Login,Chrome 123.0.0.0,,,03-04-2024 09:45:17,03-04-2024 09:46:37,1m - 19.483s,FAILED
+,,,,,,,
+Test Cases/Login,Chrome 123.0.0.0,,,03-04-2024 09:45:18,03-04-2024 09:45:23,5.561s,PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,03-04-2024 09:45:18,03-04-2024 09:45:20,1.942s,PASSED
+"navigateToUrl(""https://thinking-tester-contact-list.herokuapp.com/"")",Chrome 123.0.0.0,,,03-04-2024 09:45:20,03-04-2024 09:45:22,1.647s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App - Login/Page_Contact List App/input_here_email""), Email)",Chrome 123.0.0.0,,,03-04-2024 09:45:22,03-04-2024 09:45:22,0.872s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Contact List App - Login/Page_Contact List App/input_here_password""), Password)",Chrome 123.0.0.0,,,03-04-2024 09:45:22,03-04-2024 09:45:23,0.421s,PASSED
+"click(findTestObject(""Object Repository/Contact List App - Login/Page_Contact List App/button_Submit""))",Chrome 123.0.0.0,,,03-04-2024 09:45:23,03-04-2024 09:45:23,0.361s,PASSED
+,,,,,,,
+Test Cases/Add New Contact List,Chrome 123.0.0.0,,,03-04-2024 09:46:32,03-04-2024 09:46:32,0.088s,FAILED
+"click(findTestObject(""Object Repository/Contact List App/Page_My Contacts/button_Add a New Contact""))",Chrome 123.0.0.0,,,03-04-2024 09:46:32,03-04-2024 09:46:32,0.056s,FAILED
+,,,,,,,
+Test Cases/Logout,Chrome 123.0.0.0,,,03-04-2024 09:46:36,03-04-2024 09:46:37,1.077s,FAILED
+"click(findTestObject(""Object Repository/Contact List App/Page_My Contacts/button_Logout""))",Chrome 123.0.0.0,,,03-04-2024 09:46:36,03-04-2024 09:46:37,1.060s,FAILED

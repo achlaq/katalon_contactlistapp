@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Via Login,Chrome 123.0.0.0,,,03-04-2024 09:58:28,03-04-2024 09:59:03,34.964s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 123.0.0.0,,,03-04-2024 09:58:29,03-04-2024 09:58:34,5.609s,PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,03-04-2024 09:58:29,03-04-2024 09:58:31,2.025s,PASSED
+"navigateToUrl(""https://thinking-tester-contact-list.herokuapp.com/"")",Chrome 123.0.0.0,,,03-04-2024 09:58:31,03-04-2024 09:58:33,1.521s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App - Login/Page_Contact List App/input_here_email""), Email)",Chrome 123.0.0.0,,,03-04-2024 09:58:33,03-04-2024 09:58:34,0.923s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Contact List App - Login/Page_Contact List App/input_here_password""), Password)",Chrome 123.0.0.0,,,03-04-2024 09:58:34,03-04-2024 09:58:34,0.433s,PASSED
+"click(findTestObject(""Object Repository/Contact List App - Login/Page_Contact List App/button_Submit""))",Chrome 123.0.0.0,,,03-04-2024 09:58:34,03-04-2024 09:58:34,0.370s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 123.0.0.0,,,03-04-2024 09:58:34,03-04-2024 09:58:39,4.197s,PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,03-04-2024 09:58:34,03-04-2024 09:58:35,1.003s,PASSED
+"navigateToUrl(""https://thinking-tester-contact-list.herokuapp.com/"")",Chrome 123.0.0.0,,,03-04-2024 09:58:35,03-04-2024 09:58:37,1.611s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App - Login/Page_Contact List App/input_here_email""), Email)",Chrome 123.0.0.0,,,03-04-2024 09:58:37,03-04-2024 09:58:38,0.835s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Contact List App - Login/Page_Contact List App/input_here_password""), Password)",Chrome 123.0.0.0,,,03-04-2024 09:58:38,03-04-2024 09:58:38,0.405s,PASSED
+"click(findTestObject(""Object Repository/Contact List App - Login/Page_Contact List App/button_Submit""))",Chrome 123.0.0.0,,,03-04-2024 09:58:38,03-04-2024 09:58:39,0.332s,PASSED
+,,,,,,,
+Test Cases/Add New Contact List,Chrome 123.0.0.0,,,03-04-2024 09:58:39,03-04-2024 09:58:50,11.258s,PASSED
+"click(findTestObject(""Object Repository/Contact List App/Page_My Contacts/button_Add a New Contact""))",Chrome 123.0.0.0,,,03-04-2024 09:58:39,03-04-2024 09:58:43,3.732s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_First Name_firstName""), FirstName)",Chrome 123.0.0.0,,,03-04-2024 09:58:43,03-04-2024 09:58:43,0.662s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_Last Name_lastName""), LastName)",Chrome 123.0.0.0,,,03-04-2024 09:58:43,03-04-2024 09:58:44,0.671s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_Date of Birth_birthdate""), DateofBirth)",Chrome 123.0.0.0,,,03-04-2024 09:58:44,03-04-2024 09:58:45,0.671s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_Email_email""), Email)",Chrome 123.0.0.0,,,03-04-2024 09:58:45,03-04-2024 09:58:45,0.721s,PASSED
+"setText(findTestObject(""Contact List App/Page_Add Contact/input_Phone_phone""), Phone)",Chrome 123.0.0.0,,,03-04-2024 09:58:45,03-04-2024 09:58:46,0.706s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_Street Address 1_street1""), StreetAddress)",Chrome 123.0.0.0,,,03-04-2024 09:58:46,03-04-2024 09:58:47,0.682s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_City_city""), City)",Chrome 123.0.0.0,,,03-04-2024 09:58:47,03-04-2024 09:58:48,0.657s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_State or Province_stateProvince""), Province)",Chrome 123.0.0.0,,,03-04-2024 09:58:48,03-04-2024 09:58:48,0.690s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_Postal Code_postalCode""), PostalCode)",Chrome 123.0.0.0,,,03-04-2024 09:58:48,03-04-2024 09:58:49,0.665s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_Country_country""), Country)",Chrome 123.0.0.0,,,03-04-2024 09:58:49,03-04-2024 09:58:50,0.680s,PASSED
+"click(findTestObject(""Object Repository/Contact List App/Page_Add Contact/button_Submit""))",Chrome 123.0.0.0,,,03-04-2024 09:58:50,03-04-2024 09:58:50,0.394s,PASSED
+,,,,,,,
+Test Cases/Add New Contact List,Chrome 123.0.0.0,,,03-04-2024 09:58:50,03-04-2024 09:59:00,10.225s,PASSED
+"click(findTestObject(""Object Repository/Contact List App/Page_My Contacts/button_Add a New Contact""))",Chrome 123.0.0.0,,,03-04-2024 09:58:50,03-04-2024 09:58:53,2.872s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_First Name_firstName""), FirstName)",Chrome 123.0.0.0,,,03-04-2024 09:58:53,03-04-2024 09:58:54,0.874s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_Last Name_lastName""), LastName)",Chrome 123.0.0.0,,,03-04-2024 09:58:54,03-04-2024 09:58:55,0.669s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_Date of Birth_birthdate""), DateofBirth)",Chrome 123.0.0.0,,,03-04-2024 09:58:55,03-04-2024 09:58:55,0.680s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_Email_email""), Email)",Chrome 123.0.0.0,,,03-04-2024 09:58:55,03-04-2024 09:58:56,0.696s,PASSED
+"setText(findTestObject(""Contact List App/Page_Add Contact/input_Phone_phone""), Phone)",Chrome 123.0.0.0,,,03-04-2024 09:58:56,03-04-2024 09:58:57,0.666s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_Street Address 1_street1""), StreetAddress)",Chrome 123.0.0.0,,,03-04-2024 09:58:57,03-04-2024 09:58:57,0.672s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_City_city""), City)",Chrome 123.0.0.0,,,03-04-2024 09:58:57,03-04-2024 09:58:58,0.693s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_State or Province_stateProvince""), Province)",Chrome 123.0.0.0,,,03-04-2024 09:58:58,03-04-2024 09:58:59,0.715s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_Postal Code_postalCode""), PostalCode)",Chrome 123.0.0.0,,,03-04-2024 09:58:59,03-04-2024 09:58:59,0.670s,PASSED
+"setText(findTestObject(""Object Repository/Contact List App/Page_Add Contact/input_Country_country""), Country)",Chrome 123.0.0.0,,,03-04-2024 09:58:59,03-04-2024 09:59:00,0.663s,PASSED
+"click(findTestObject(""Object Repository/Contact List App/Page_Add Contact/button_Submit""))",Chrome 123.0.0.0,,,03-04-2024 09:59:00,03-04-2024 09:59:00,0.334s,PASSED
+,,,,,,,
+Test Cases/Logout,Chrome 123.0.0.0,,,03-04-2024 09:59:00,03-04-2024 09:59:03,3.076s,PASSED
+"click(findTestObject(""Object Repository/Contact List App/Page_My Contacts/button_Logout""))",Chrome 123.0.0.0,,,03-04-2024 09:59:00,03-04-2024 09:59:03,2.998s,PASSED
