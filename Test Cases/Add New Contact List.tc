@@ -94,7 +94,7 @@
       <name>Email</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>0</defaultValue>
       <description></description>
       <id>893469d5-05ca-44d9-8f36-962558c3f47c</id>
       <masked>false</masked>

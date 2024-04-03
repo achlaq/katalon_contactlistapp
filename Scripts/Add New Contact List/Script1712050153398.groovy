@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Object Repository/Contact List App/Page_Add Contac
 
 WebUI.setText(findTestObject('Object Repository/Contact List App/Page_Add Contact/input_Email_email'), Email)
 
-WebUI.setText(findTestObject('Page_Add Contact/input_Phone_phone'), Phone)
+WebUI.setText(findTestObject('Contact List App/Page_Add Contact/input_Phone_phone'), Phone)
 
 WebUI.setText(findTestObject('Object Repository/Contact List App/Page_Add Contact/input_Street Address 1_street1'), StreetAddress)
 
